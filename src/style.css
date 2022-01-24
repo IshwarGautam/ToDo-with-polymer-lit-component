@@ -1,0 +1,36 @@
+body{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container{
+  padding: 10px;
+  border: 3px solid blueviolet;
+  width: 50%;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.container .input{
+  width: 90%;
+  height: 20px;
+}
+
+.container ul{
+  list-style:none;
+  padding: 0px;
+}
+
+.container li{
+  color: rgb(48, 17, 226);
+}
+
+.container li a{
+  float: right;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.container #error{
+  color: red;
+  font-size: 15px;
+}
